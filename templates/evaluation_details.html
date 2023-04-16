@@ -1,0 +1,27 @@
+<p>
+In general, the evaluation contains 2 steps.
+</p>
+
+<H4>Feature Extraction</H4>
+<br>
+<i>1. Gallery Set Feature Extraction </i>
+<br>
+<p>
+The participant will extract a 128-dimension l2 normalized feature vector for each image in the Gallery dataset. If there are 1M images in the gallery dataset, the final feature set will contain 1M l2 normalized feature vectors. Note that, the feature set is fixed for all the queries.
+</p>
+
+<br>
+<i>2. Query Feature Extraction</i>
+<br>
+<p>
+For each query, which contains 1 product image and 3 language feedbacks, the participant will also extract a 128-dimension l2 normalized feature vector. Note that, for the same product image with different language feedbacks the feature vector can be different. For example, one customer may ask for a green product similar to the query product image while another customer may ask for something in red. Different language feedbacks will lead to different feature vectors. 
+</p>
+
+<p>
+The participant will be asked to submit the features for the gallery set and the features for all the queries for the final evaluation.  
+</p>
+
+<H4>Evaluation and Metrics</H4>
+<p>
+For each query(feature vector), we will rank all the images(feature vectors) in the gallery dataset based on their cosine similarity to the query feature(note the features are l2 normalized). The images with higher similarity score will have a higher ranking. Since we have a small set of products(about 50) got annotated with fulfill/not-fulfill label with each query. The evaluation metric for each query is the <a href="https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Average_precision">Average Precision</a> between the ground-truth label and the relative ranking (the ranking on the annotated product set) on the annotated product set. The final evaluation metric over the whole query dataset is the <a href="https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision">Mean Average Precision(mAP)</a> over all queries.
+</p>
