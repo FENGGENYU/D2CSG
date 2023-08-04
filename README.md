@@ -1,6 +1,6 @@
 ## Introduction
 
-This repository release the baseline code for the [ICCV 2023 ABO Fine-grained Semantic Segmentation Competition](https://eval.ai/web/challenges/challenge-page/2027/overview)
+This repository released the baseline code for the [ICCV 2023 ABO Fine-grained Semantic Segmentation Competition](https://eval.ai/web/challenges/challenge-page/2027/overview)
 
 ## Requirements
 
