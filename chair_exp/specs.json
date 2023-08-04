@@ -1,0 +1,16 @@
+{
+  "Description" : "This experiment learns a shape representation for CAD shapes ",
+  "DataSource" : "/local-scratch2/HAL3D/workshop/data",
+  "NetworkArch" : "DGCNN",
+  "NumEpochs" : 250,
+  "SnapshotFrequency" : 100,
+  "AdditionalSnapshots" : [ 100, 500 ],
+  "LearningRateSchedule" : [
+    {
+      "Type" : "Step",
+      "Initial": 0.001,
+      "Interval": 25,
+      "Factor" : 0.8
+    }]
+}
+

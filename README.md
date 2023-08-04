@@ -10,19 +10,21 @@ The codes passed test on pytorch 1.7.1 and CUDA 11.2
 
 The processed data is released [here](https://drive.google.com/file/d/1S7Ove63KvuN1pVgz1aNGG1wg3QHLJJL_/view?usp=sharing). It only contains train data and dev data right now.
 
+Please set up the data path in the spec.json file under the experiment directory(e.g. chair_exp).
+
 ## Train
 ```
-python train_nodes.py -e {experiment_name} -g {gpu_id} --cate {category}
+python train.py -e {experiment_name} -g {gpu_id} --cate {category}
 ```
 
 For example:
 ```
-python train_nodes.py -e chair_exp -g 0 --cate chair
+python train.py -e chair_exp -g 0 --cate chair
 ```
 
 ## Test
 ```
-python test_nodes.py -e {experiment_name} -g {gpu_id} --cate {category} --split dev
+python test.py -e {experiment_name} -g {gpu_id} --cate {category} --split dev
 ```
 dev for development dataset, test for test dataset
 
