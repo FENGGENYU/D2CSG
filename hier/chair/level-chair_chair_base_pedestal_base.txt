@@ -1,0 +1,2 @@
+0 chair/chair_base/pedestal_base/central_support leaf
+0 chair/chair_base/pedestal_base/pedestal leaf

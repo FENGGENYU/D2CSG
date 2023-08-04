@@ -1,0 +1,4 @@
+0 chair/chair_base/foot leaf
+0 chair/chair_base/pedestal_base leaf
+0 chair/chair_base/regular_leg_base leaf
+0 chair/chair_base/star_leg_base leaf

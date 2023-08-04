@@ -1,0 +1,3 @@
+0 chair/chair_base/star_leg_base/central_support leaf
+0 chair/chair_base/star_leg_base/mechanical_control leaf
+0 chair/chair_base/star_leg_base/star_leg_set leaf
