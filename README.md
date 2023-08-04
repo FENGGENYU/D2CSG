@@ -6,6 +6,10 @@ This repository released the baseline code for the [ICCV 2023 ABO Fine-grained S
 
 The codes passed test on pytorch 1.7.1 and CUDA 11.2
 
+## Processed data
+
+The processed data is released [here](https://drive.google.com/file/d/1S7Ove63KvuN1pVgz1aNGG1wg3QHLJJL_/view?usp=sharing)
+
 ## Train
 ```
 python train_nodes.py -e {experiment_name} -g {gpu_id} --cate {category}
