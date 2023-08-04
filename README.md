@@ -8,7 +8,7 @@ The codes passed test on pytorch 1.7.1 and CUDA 11.2
 
 ## Processed data
 
-The processed data is released [here](https://drive.google.com/file/d/1S7Ove63KvuN1pVgz1aNGG1wg3QHLJJL_/view?usp=sharing)
+The processed data is released [here](https://drive.google.com/file/d/1S7Ove63KvuN1pVgz1aNGG1wg3QHLJJL_/view?usp=sharing). It only contains train data and dev data right now.
 
 ## Train
 ```
