@@ -1,2 +1,0 @@
-0 chair/chair_head/head_connector leaf
-0 chair/chair_head/headrest leaf

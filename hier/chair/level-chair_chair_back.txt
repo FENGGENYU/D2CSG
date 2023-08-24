@@ -1,4 +1,0 @@
-0 chair/chair_back/back_connector leaf
-0 chair/chair_back/back_frame leaf
-0 chair/chair_back/back_support leaf
-0 chair/chair_back/back_surface leaf

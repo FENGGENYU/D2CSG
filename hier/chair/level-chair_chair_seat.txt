@@ -1,3 +1,0 @@
-0 chair/chair_seat/seat_frame leaf
-0 chair/chair_seat/seat_support leaf
-0 chair/chair_seat/seat_surface leaf

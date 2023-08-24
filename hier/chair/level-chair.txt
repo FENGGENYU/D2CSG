@@ -1,6 +1,0 @@
-0 chair/chair_arm leaf
-0 chair/chair_back leaf
-0 chair/chair_base leaf
-0 chair/chair_head leaf
-0 chair/chair_seat leaf
-0 chair/footrest leaf

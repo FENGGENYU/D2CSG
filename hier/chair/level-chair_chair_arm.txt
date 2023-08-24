@@ -1,6 +1,0 @@
-0 chair/chair_arm/arm_connector leaf
-0 chair/chair_arm/arm_holistic_frame leaf
-0 chair/chair_arm/arm_horizontal_bar leaf
-0 chair/chair_arm/arm_near_vertical_bar leaf
-0 chair/chair_arm/arm_sofa_style leaf
-0 chair/chair_arm/arm_writing_table leaf

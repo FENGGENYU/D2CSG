@@ -1,3 +1,0 @@
-0 chair/footrest/chair_base leaf
-0 chair/footrest/seat_support leaf
-0 chair/footrest/seat_surface leaf

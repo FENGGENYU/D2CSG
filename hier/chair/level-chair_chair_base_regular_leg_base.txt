@@ -1,5 +1,0 @@
-0 chair/chair_base/regular_leg_base/bar_stretcher leaf
-0 chair/chair_base/regular_leg_base/foot leaf
-0 chair/chair_base/regular_leg_base/leg leaf
-0 chair/chair_base/regular_leg_base/rocker leaf
-0 chair/chair_base/regular_leg_base/runner leaf
