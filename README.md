@@ -21,7 +21,7 @@ Tested environment: please check environment.yml file
 If you use this code, please cite the following paper.
 ```
 @article{yu2024d,
-  title={D $^2$ CSG: Unsupervised Learning of Compact CSG Trees with Dual Complements and Dropouts},
+  title={{D$^2$CSG}: Unsupervised Learning of Compact CSG Trees with Dual Complements and Dropouts},
   author={Yu, Fenggen and Chen, Qimin and Tanveer, Maham and Mahdavi Amiri, Ali and Zhang, Hao},
   journal={Advances in Neural Information Processing Systems},
   volume={36},
