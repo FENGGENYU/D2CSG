@@ -20,6 +20,15 @@ Tested environment: please check environment.yml file
 ## Citation
 If you use this code, please cite the following paper.
 ```
+@InProceedings{Yu_2022_CVPR,
+    author    = {Yu, Fenggen and Chen, Zhiqin and Li, Manyi and Sanghi, Aditya and Shayani, Hooman and Mahdavi-Amiri, Ali and Zhang, Hao},
+    title     = {CAPRI-Net: Learning Compact CAD Shapes With Adaptive Primitive Assembly},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {11768-11778}
+}
+
 @article{yu2024d,
   title={{D$^2$CSG}: Unsupervised Learning of Compact CSG Trees with Dual Complements and Dropouts},
   author={Yu, Fenggen and Chen, Qimin and Tanveer, Maham and Mahdavi Amiri, Ali and Zhang, Hao},
