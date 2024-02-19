@@ -28,10 +28,6 @@ please arrange your obj files as above hierarchy structure before the following 
 ```
 python make_name_list.py {dataset-directory} 2
 ```
-## Step 1: Produce names.npz
-```
-python make_name_list.py {dataset-directory} 2
-```
 ## Step 2: Normalize meshes
 ```
 python 0_simplify_obj.py 0 1 {dataset-directory}
