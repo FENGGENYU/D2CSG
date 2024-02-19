@@ -43,7 +43,7 @@ python 2_floodfill.py 0 1 {dataset-directory}
 
 ```
 
-## Step 5-1: Sample voxels (64 resolution) and points with occupancy values
+## Step 5-1 (Option 1): Sample voxels (64 resolution) and points with occupancy values
 ```
 python imnet_sampling.py {dataset-directory}
 
@@ -52,10 +52,22 @@ ae_voxel_points_samples.hdf5 is used as ae_train.hdf5 for ShapeNet.
 
 points_64 and values_64 in this sampled data are used as train data in the ShapeNet experiments.
 
-## Step 5-2: Sample voxels (64 resolution) and points with occupancy values
+## Step 5-2 (Option 2): Sample voxels (64 resolution) and points with occupancy values
 Since the ABC dataset has better mesh property, we could also use sampling codes in [IF-Net](https://github.com/jchibane/if-net) to process the data. 
 
-Please follow their data processing steps.
+Install the needed libraries with:
+```
+cd libmesh
+python setup.py build_ext --inplace
+cd ../libvoxelize
+python setup.py build_ext --inplace
+cd ..
+```
+
+```
+python pc_sampling.py {dataset-directory} 0 0
+```
+ifnet_gt_points.hdf5 can also be used as ae_train.hdf5.
 
 ## Step 6: Sample points on 64 resolution voxels
 When the input is 64^3 voxels, we can only sample points on the input for fine-tuning.
