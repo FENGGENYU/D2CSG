@@ -1,0 +1,14 @@
+{
+  "Description" : "This experiment learns a shape representation for CAD shapes ",
+  "DataSource" : "/local-scratch2/data/abc/dual_csg",
+  "NetworkArch" : "dual_csg",
+  "NumEpochs" : 15000,
+  "SnapshotFrequency" : 3000,
+  "AdditionalSnapshots" : [ 10000, 20000 ],
+  "LearningRateSchedule" : [
+    {
+      "Type" : "Constant",
+      "Value" : 0.0001
+    }]
+}
+
